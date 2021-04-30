@@ -79,7 +79,7 @@ header {
     background-repeat: no-repeat;
     width: 1030px;
     height: 600px;
-    position: relative;
+    position: absolute;
 }
 
 .tekstas {
@@ -106,6 +106,61 @@ header {
     margin-top: 25px;
 }
 
+.shop-now {
+    margin-top: 50px;
+    background-color: rgb(190, 22, 22);
+    font-size: 15px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    height: 40px;
+    width: 150px;
+    padding: 12px;
+    padding-left:35px;
+    color: white;
+    float: left;
+}
+
+button {
+    float: left;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    border: 0px;
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+}
+
+.prekes-nr {
+    position: absolute;
+    top :40px;
+    right :80px;
+    font-size: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(190, 22, 22);
+    opacity: 0.1;
+}
+
+.soc-tinklai {
+    display: inline-block;
+    width: 10px;
+    position:absolute;
+    right :60px;
+    top :200px;
+}
+.soc-tinklai > a {
+    text-decoration: none;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: black;
+    margin: 6px;
+    padding-top: 4px;
+    text-align: center;
+    font-size:15px;
+}
 /*
 
 header > nav {
