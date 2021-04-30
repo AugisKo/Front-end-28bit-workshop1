@@ -21,7 +21,6 @@ header {
     margin-top: 15px;
     width: 100vh;
     height: 50px;
-    background-color: chartreuse;
 }
 
 .logotipas {
@@ -32,30 +31,77 @@ header {
 
 .nav-top {
     display: inline-block;
-    background-color: blue;
-}
-
-.top-menu {
-    display: inline-block;
-    background-color: chocolate;
-}
-
-.top-icons {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 12px;
     float: right;
-    background-color: blue;
 }
 
-main {
-    width: 800px;
-
+.top-menu > a {
+    display: inline-block;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 18px;
+    }
+.top-menu > a:first-of-type {
+    color:rgb(190, 22, 22);
+}
+.top-icons > i {
+    display: inline-block;
+    color: white;
+    background-color: rgb(255, 174, 0);
 }
 
 .prekes-container {
     background-image: url(../img/batai1.png);
-width: 800px;
-background-color: grey;
+    background-position:right center;
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 600px;
+    padding: 100px;
+    float: left;
 }
 
-.preke {
-    float: right;
+.tekstas {
+    float: left;
 }
+
+.prekes-pavadinimas {
+    color:rgb(190, 22, 22);
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.prekes-aprasymas {
+    color: grey
+    
+}
+
+/*
+
+header > nav {
+    display: inline-block;
+    float: right;
+    margin-top: 12px;
+}
+
+ nav > a {
+    display: inline-block;
+    float: left;
+    line-height: 20px;
+    
+    color: #9F9F9F;
+    text-decoration: none;
+    
+    padding: 0px;
+    margin-right: 8px;
+    border-radius: 19px;
+}
+
+nav > a:last-of-type {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 0px;
+    border-color:  #9F9F9F; */
+    
