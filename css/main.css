@@ -37,6 +37,10 @@ header {
     float: right;
 }
 
+.top-menu {
+    float: left;
+}
+
 .top-menu > a {
     display: inline-block;
     line-height: 20px;
@@ -46,6 +50,10 @@ header {
     }
 .top-menu > a:first-of-type {
     color:rgb(190, 22, 22);
+}
+
+.top-icons {
+    float: left;
 }
 .top-icons > i {
     display: inline-block;
