@@ -157,6 +157,10 @@ button:hover {
     text-align: center;
     font-size:15px;
 }
+.soc-tinklai > a:hover{
+    background-color: black;
+    color: white;
+}
 
 .slaideris {
     width: 190px;
