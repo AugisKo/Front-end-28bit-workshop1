@@ -65,10 +65,7 @@ header {
     margin-right: 10px;
 }
 
-.top-cons > a:hover {
-    border-width: 0;
-    border-radius: 5px;
-    background-color:rgb(190, 22, 22);
+.top-icons > a:hover {
     color: black;
     
 }
