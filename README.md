@@ -11,7 +11,7 @@ This project is for educational purposes only. Pull request are welcome, but pri
 
 Site published at https://augisko.github.io/Front-end-28bit-workshop1/
 
-Design: [Wokshop 1]()
+Design: [Wokshop 1](https://cdn.discordapp.com/attachments/833468929020133416/837382482030100510/unknown.png)
 
 ## Authors
 

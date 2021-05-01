@@ -73,16 +73,6 @@ header {
     
 }
 
-.prekes-container {
-    background-image: url(../img/batai1.png);
-    background-position:right center;
-    background-repeat: no-repeat;
-    width: 1030px;
-    height: 600px;
-    margin-left: calc(50% - 470px);
-    position: absolute;
-}
-
 .tekstas {
     width: 500px;
     float: left;
@@ -200,7 +190,7 @@ button:hover {
     position: absolute;
     bottom: 0px;;
 }
-
+/*
 .juostos-elementas-1 {
     display:inline-block;
     Height:4px;
@@ -227,12 +217,15 @@ button:hover {
     background-color:rgb(190, 22, 22);
 }
 
-/*
+*/
 .juostos-elementas {
     display:inline-block;
     Height:4px;
     width: calc(100%/3);
     float: left;
+}
+.juostos-elementas:hover {
+    background-color: grey;
 }
 .juostos-elementas-active {
     display:inline-block;
@@ -241,4 +234,4 @@ button:hover {
     float: left;
     background-color:rgb(190, 22, 22);
 }
-*/
+
